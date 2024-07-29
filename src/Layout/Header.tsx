@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const HeaderComponent = () => {
     return (
         <>
-    <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
+    <Menu theme="light" mode="horizontal" defaultSelectedKeys={['1']}>
         <Menu.Item key="1">
             <Link to="/">Home</Link>
         </Menu.Item>
